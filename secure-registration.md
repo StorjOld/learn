@@ -19,7 +19,8 @@ To generate the keys, open a terminal and run these two commands in order:
     
 You will see an output like this:
 
-    read EC key\nPrivate-Key: (256 bit)
+    read EC key
+    Private-Key: (256 bit)
     priv:
     8f:42:d3:b4:8b:9c:41:5c:de:fc:c3:cf:07:90:18:
     8e:7b:25:bd:b9:52:d6:93:db:59:30:76:6d:g0:9a:
