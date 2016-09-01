@@ -1,1 +1,7 @@
 /* CSS for website */
+.custom-link {
+    display: none !important;
+}
+#book-search-input {
+    margin-bottom: -8px;
+}
