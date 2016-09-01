@@ -8,3 +8,9 @@
 .gitbook-link {
     color: #ccc !important;
 }
+.book-summary ul.summary li.active>a {
+    color: #2683ff;
+}
+.markdown-section a {
+    color: #2683ff;
+}
