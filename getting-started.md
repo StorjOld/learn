@@ -22,7 +22,8 @@ We have lots of cat pictures we want to store in the cloud, so we should create 
 
 We currently have a Javascript and Node.js client written to interface with the network and API. You must have [Node.js](https://nodejs.org) and [npm](https://www.npmjs.com/) installed. We HIGHLY recommend [nvm](https://github.com/creationix/nvm) for this. This tutorial is using a default Ubuntu 14.04 x64 machine from [Digital Ocean](https://www.digitalocean.com/).
 
-    apt-get install git -y\nnpm install -g storj
+    apt-get install git -y
+    npm install -g storj
 
 Run the `storj` program to view usage:
     
@@ -35,7 +36,8 @@ Run the `storj` program to view usage:
 
 To make this process simple, we created a pairing process. This will create a keypair on your computer and send the public key to us. It will be used for further authentication instead of the username and password.
 
-    $ storj login\n [...]  > Enter your email address  >  cats@storj.io
+    $ storj login
+    [...]  > Enter your email address  >  cats@storj.io
     [...]  > Enter your password  >  ********************
     
     [info]   This device has been successfully paired.
