@@ -41,3 +41,6 @@ To make this process simple, we created a pairing process. This will create a ke
     [...]  > Enter your password  >  ********************
     
     [info]   This device has been successfully paired.
+
+### Up Next: Upload/Download Cat Pictures 
+[Go to the Next Tutorial >>>](upload-download.md)
