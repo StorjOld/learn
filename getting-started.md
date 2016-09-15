@@ -5,7 +5,7 @@
 
 This part is really simple:
 
-1. [**Sign Up**](https://app.storj.io/#/signup) for a Storj account.
+1. [**Sign up**](https://app.storj.io/#/signup) for a Storj account.
 2. Click on the activation link sent to your email.
 3. Now visit [**app.storj.io**](https://app.storj.io) to login.
 
@@ -18,14 +18,32 @@ We have lots of cat pictures we want to store in the cloud, so we should create 
 2. Give it a descriptive name like *"Bucket of Cats"*. Don't worry, you can rename this later.
 
 
-### 3. Getting Some Tools
+### 3. Getting the Tools
 
 We currently have a Javascript and Node.js client written to interface with the network and API. You must have [Node.js](https://nodejs.org) and [npm](https://www.npmjs.com/) installed. We HIGHLY recommend [nvm](https://github.com/creationix/nvm) for this. This tutorial is using a default Ubuntu 14.04 x64 machine from [Digital Ocean](https://www.digitalocean.com/).
 
-    apt-get install git -y
-    npm install -g storj
+Install Node.js via NVM (the proper way):
 
-Run the `storj` program to view usage:
+    # download and install nvm
+    wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
+    # restart your shell
+    
+    # install node
+    nvm install 4.5.0 
+    
+    # use node
+    nvm use 4.5.0
+
+Install CLI tools:
+
+    npm install -g storj
+    
+If for some reason you are running at root: 
+
+    # why are you using root?
+    npm install -g storj --unsafe-perm
+
+With it installed you can run the `storj` program to view usage:
     
     storj --help
 
