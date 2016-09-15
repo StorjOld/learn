@@ -15,6 +15,11 @@
     color: #2683ff;
     border-bottom: 1px solid #2683ff;
 }
+.markdown-section a:hover {
+    text-decoration: none;
+    color: #173AE8;
+    border-botom: 1px solid #173AE8;
+}
 .markdown-section h1, .markdown-section h2, .markdown-section h3 {
     border-bottom: 1px solid #eee;
 }
